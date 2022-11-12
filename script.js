@@ -19,4 +19,4 @@ let bt = document.getElementById("but").addEventListener("click", function () {
     } else sum = parseFloat(sum) + parseFloat(a);
     document.getElementById("total").innerHTML = sum;
 });
-console.log(sum);
+console.log(parseFloat(sum));
